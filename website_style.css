@@ -1,0 +1,521 @@
+body {
+    overflow-x: hidden;
+    font-family: poppins;
+    text-align: center;
+  }
+  
+  /* Navbar Style Start*/
+  .navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .navbar-light .navbar-brand:hover {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active {
+    color: rgb(239, 243, 18);
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  #navbarOptions > div > a.nav-item.nav-link {
+    padding: 20px;
+  }
+  
+  #navbarOptions > div > a.nav-item.nav-link:hover {
+    color: rgba(239, 243, 18, 0.801);
+  }
+  /* Navbar Style End */
+  
+  
+  /*Header Carousel Style Start */
+  header .carousel-item {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  header  .carousel-caption {
+    text-align: left;
+    margin-left: 5.8%;
+    margin-bottom: 20%;
+  }
+  
+  header .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin-left: 3%;
+  }
+  
+  header .carousel-indicators {
+    margin-right: 70%;
+    margin-bottom: 3%;
+  }
+  /* Header Carousel Style End */
+  
+  
+  /* Button Style Start */
+  .btn-secondary {
+    color: rgb(0, 0, 0);
+    background-color: rgb(239, 243, 18);
+    border-color: rgb(239, 243, 18);
+  }
+  
+  .btn-secondary:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(193, 196, 13, 0.767);
+    border-color: rgba(239, 243, 18, 0.767);
+  }
+  
+  .btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(136, 8, 168);
+    border-color: rgb(136, 8, 168);
+  }
+  
+  .btn-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(174, 65, 201, 0.884);
+    border-color: rgba(174, 65, 201, 0.884);
+  }
+  /*Button Style End*/
+  
+  
+  /*Welcome Section Style Start*/
+  #welcomeSection {
+    margin-top: 5%;
+  }
+  
+  #welcomeCaption {
+    width: 60%;
+    margin: 5% auto;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  
+  #welcomeCaption p {
+    color: rgb(116, 116, 116);
+  }
+  
+  #umbrella-img {
+    float: right;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .circular-icon {
+    background-color: #610474;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 10%;
+    padding: 8%;
+    color: white;
+  }
+  
+  .feature-container {
+    width: 20%;
+  }
+  
+  .feature-container h3 {
+    margin: 10% auto;
+  }
+  
+  .feature-container p {
+    color: rgb(116, 116, 116);
+  }
+  
+  #features-div {
+    margin-top: 10%;
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  
+  #welcomeSection hr {
+    margin: 3% 18%;
+  }
+  /*Welcome Section Style End*/
+  
+  
+  /*Project Section Style Start*/
+  #projectSection {
+    margin-top: 5%;
+  }
+  
+  #projectSection .card {
+    width: 100% !important;
+    text-align: left;
+    border: 0px;
+    border-radius: 0%;
+  }
+  
+  #projectSection .card-title {
+    font-weight: bold;
+  }
+  
+  #projectSection .card p {
+    color: grey;
+  }
+  
+  #projectSection .card .card-body {
+    background-color: rgb(243, 235, 235);
+  }
+  
+  #projectSection .card .card-body:hover {
+    background-color: rgb(239, 243, 18);
+  }
+  
+  #projectSection h1 {
+    margin-bottom: 5%;
+  }
+  .card-img-top{
+    height: 350px;
+  }
+  /*Project Section Style End*/
+  
+  
+  /*Pricing Section Style Start*/
+  #pricingSection {
+    margin-bottom: 5%;
+  }
+  
+  #pricingSection h1 {
+    margin: 5% auto;
+  }
+  
+  .pricing-container h4 {
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  
+  .pricing-container h5 {
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 5%;
+  }
+  
+  #pricing-div {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  
+  .pricing-container .btn {
+    margin-top: 5%;
+  }
+  
+  #pricing-div > div:nth-child(2) {
+    border-width: 0px 2px; /* top right bottom left */
+    border-style: solid;
+    border-color: rgb(214, 206, 206);
+  }
+  /*Pricing Section Style End*/
+  
+  
+  /*Video Project Section Start*/
+  #videoProjectSection {
+    background-color: rgba(99, 8, 122, 0.767);
+  }
+  
+  #videoProjectSection h1 {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  
+  #videoContainer {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 5%;
+  }
+  
+  #videoContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .video-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+  }
+  
+  .video-wrapper h6 {
+    color: white;
+    margin-right: 77%;
+  }
+  
+  .video {
+    width: 90%;
+    margin: auto 5%;
+    cursor: pointer;
+  }
+  
+  .play-pause-btn {
+    background-image: url(play_pause_button.png);
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+  }
+  /*Video Project Section End*/
+  
+  
+  /*Team Section Style Start*/
+  #teamSection {
+    margin: 5% auto;
+  }
+  
+  #teamSection img {
+    width: 50%;
+    height: 120%;
+    border-radius: 100%;
+    image-rendering: pixelated;
+    cursor: pointer;
+  }
+  
+  #teamSection img:hover {
+    width: 50%;
+    height: 120%;
+    border-radius: 100%;
+    filter: invert(0.25);
+    image-rendering: pixelated;
+  }
+  
+  #teamSection .row {
+    margin-bottom: 8%;
+    margin-top: 3%;
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  
+  #teamSection p {
+    color: grey;
+  }
+  
+  #teamSection h6 {
+    margin: 2% auto;
+  }
+  /*Team Section Style End*/
+  
+  
+  /*Lifestyle Section Style Start*/
+  #lifestyleSection{
+    background-color: rgba(243, 237, 237, 0.418);
+    padding: 5% 15%;
+  }
+  
+  #lifestyleSection h1{
+    margin-bottom: 2.5%;
+  }
+  /*Lifestyle Section Style End*/
+  
+  
+  /*Newsletter Section Style Start*/
+  #newsletterSection {
+    background: url(bridge.jpg);
+    background-size: cover;
+    margin: 5% auto;
+    padding: 10%;
+  }
+  
+  #newsletterSection h1 {
+    color: white;
+    margin-bottom: 2.5%;
+  }
+  
+  #newsletterSection input {
+    text-align: center;
+    color: grey;
+    border: 0;
+    height: 3rem;
+    width: 35%;
+    border-radius: 5px;
+  }
+  
+  #newsletterSection input:focus {
+    outline: none;
+  }
+  
+  #newsletterSection button {
+    border: 0;
+    margin-bottom: 3px;
+  }
+  /*Newsletter Section Style End*/
+  
+  
+  /*Blog Section Style Start*/
+  #blogSection .row {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  
+  #blogSection h1 {
+    margin-bottom: 2.5%;
+  }
+  
+  #blogSection h6 {
+    color: grey;
+  }
+  
+  #blogSection .card {
+    border: 0;
+  }
+  
+  #blogSection .btn-light {
+    color: rgb(5, 5, 5);
+    background-color: rgba(150, 150, 156, 0.226);
+    border-color: rgba(150, 150, 156, 0.226);
+  }
+  
+  #blogSection .btn-light:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(114, 114, 117, 0.651);
+    border-color: rgba(114, 114, 117, 0.651);
+  }
+  /*Blog Section Style End*/
+  
+  
+  /*Contact Section Style Start*/
+  #contactSection {
+    margin: 5.5% auto 2.5%;
+  }
+  
+  #contactContainer {
+    text-align: left;
+    background-color: rgba(245, 207, 40, 0.74);
+    padding: 2.5%;
+    margin-bottom: .33%;
+  }
+  
+  #contactContainer > form * {
+    display: block;
+  }
+  
+  #contactContainer input {
+    border: 0;
+    border-radius: 2px;
+    color: gray;
+  }
+  
+  #contactContainer input:focus {
+    outline: none;
+  }
+  
+  #contactContainer textarea {
+    border-radius: 2px;
+    border: 0;
+  }
+  
+  #contactContainer textarea:focus {
+    outline: none;
+  }
+  
+  #contactContainer button {
+    margin-top: 2.5%;
+  }
+  
+  #contactSection iframe{
+    width: 49.5vw; 
+    height: 65vh;
+  }
+  /*Contact Section Style End*/
+  
+  
+  /*Footer Style Start*/
+  footer > .row .col-lg-4 > h6:nth-child(1){
+    font-weight: bolder;
+    margin-bottom: 2.5%;
+  }
+  
+  footer i{
+    margin: auto 2.5%;
+  }
+  
+  footer i:hover{
+    color: teal;
+  }
+  /*Footer Style End*/
+  
+  
+  /*Slide Show Style Start*/
+  .slide-show{
+    margin: auto;
+    width: 65%;
+  }
+  
+  .slide-show .row{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  
+  .slide-show .col-lg-12{
+    padding: 0;
+  }
+  
+  .slide-item{
+    flex: 0 0 auto;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    width: 15.1121%;
+    cursor: pointer;
+  }
+  
+  .slide-item.active{
+    padding: 0.25%;
+    border: 3px solid #555;
+  }
+  
+  
+  .arrow{
+    flex: 0 0 auto;
+    display: inline-block;
+    background-color: #610474;
+    color: white;
+    width: 4.1666665%;
+    cursor: pointer;
+  }
+  
+  .arrow-btn-right{
+    margin-left: 0.5%;
+  }
+  
+  .arrow-btn-left{
+    margin-right: 0.5%;
+  }
+  
+  .arrow i{
+    margin-top: 500%;
+  }
+  
+  .selected-slide{
+    width: 100%;
+    height: 100%;
+  }
